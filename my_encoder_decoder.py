@@ -1,21 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'mana-ysh'
 
-'''
-MEMO
-
-小田さんの1epochごとにoptimizerを初期化してるけどいいのか?
-シャッフルは前処理でやっとく?
-処理時間測定する関数作る
-batchサイズより小さくなった残り文の学習
-ビーム探索の実装および単語の出力を確率分布に従って出力するよう実装
-ArgumentParser使う
-語順を逆にするのどうする？
-コーパスをクリーニングして文の数を減らす？
-
-'''
-
-
 import datetime
 import chainer.functions as F
 import numpy as np
